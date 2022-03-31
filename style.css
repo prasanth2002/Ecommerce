@@ -18,6 +18,14 @@
     margin-top: -35px;
  
 }
+@media (max-width: 300px) {
+.logo{
+  padding-bottom: 10%;
+}
+}
+  
+
+.logo
     
  .search {
     width: 100%;
@@ -261,10 +269,16 @@ opacity:1;
 @media (max-width: 767px) {
   .background-oregon-grapes {
     height: 330px;
-    width: 400px;
+    width: 100%;
   }
 }
-
+@media (max-width: 767px) {
+.center {
+  width: 100%;
+  padding-left: 5%;
+ 
+}
+}
 
 /* Image CSS for your SVG */
 .i1{
@@ -383,9 +397,10 @@ color: rgb(139, 137, 137);
   color: black;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 390px) {
   .card-list {
     flex-direction: column;
+   
   }
 }
 
