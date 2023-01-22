@@ -18,69 +18,14 @@
     margin-top: -35px;
  
 }
-@media (max-width: 300px) {
+@media (max-width: 600px) {
 .logo{
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 }
-  
 
-.logo
+
     
- .search {
-    width: 100%;
-    position: absolute;
-    display:flex;
-    justify-content: right;
-   
-    
-}
-       .searchTerm {
-           
-        width:0;
-        border: 3px solid #00B4CC;
-        border-right: none;
-        padding: 0px;
-        border-radius: 50%;
-        height: 50px;
-        border-radius: 5px 0 0 5px;
-        outline: none;
-        color: #9fb6ab;
-        border: 1px solid #fbe200;
-        background-color: rgb(215, 224, 224) ;
-       transition: all 1s; 
-      }
-      .searchTerm:hover{
-          width: 500px;
-      }
-    
-      .searchTerm:focus{
-        color: #030303;
-      }
-    .searchButton::placeholder{
-        width: 150px;
-        
-    }  
-  
-      .searchButton {
-        width: 50px;
-        height: 50px;
-        border: 1px solid #fbe200;
-        background: #fbe200;
-        text-align: center;
-        color: #fff;
-        border-radius: 0 5px 5px 0;
-        cursor: pointer;
-        font-size: 20px;
-      }   
-      .wrap{
-        width: 20%;
-        margin-right: auto;
-        margin-left:auto;
-        margin-top: -40px;
-        transform: translate(-50%, -50%); 
-    
-      }
 
 
 .card{
@@ -266,16 +211,17 @@ opacity:1;
   margin-top: 125px;
   position: relative;
 }
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .background-oregon-grapes {
     height: 330px;
     width: 100%;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 600px) {
 .center {
-  width: 100%;
-  padding-left: 5%;
+  width: 90%;
+
+  padding-left: 3%;
  
 }
 }
