@@ -78,13 +78,13 @@ p
 
 .center
 {
-  margin-top: 10%;
+  padding-top: 10%;
   margin-left: 5%;
   margin-right: 35px;
-  height: 60vh;
+
   width:50%;
   display: flex;
-  justify-content: left;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -95,13 +95,7 @@ p
 {
   height:25em;
   width:20em;
-  display:-webkit-box;
-  display:-ms-flexbox;
   display:flex;
-  -webkit-box-orient:vertical;
-  -webkit-box-direction:normal;
-  -ms-flex-direction:column;
-  flex-direction:column;
   position:relative;
   -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -198,6 +192,7 @@ font-size:1.2em;
 {
 opacity:1;
 }
+
 .background-oregon-grapes {
   background-image: url("images/yellow.jpg");
   background-size: 50%;
@@ -211,19 +206,55 @@ opacity:1;
   margin-top: 125px;
   position: relative;
 }
-@media (max-width: 600px) {
-  .background-oregon-grapes {
-    height: 330px;
-    width: 100%;
+@media (max-width:1000px){
+  .d-lg-flex  {
+    
+      display: flex;
+      flex-direction: column; /* display cards in columns */
+      gap: 5px;
+     
+      align-items: center;
+      text-align: center;
   }
+  .center {
+      display: flex;
+      flex-direction: column; /* display cards in columns */
+      gap: 5px;
+      align-items: center;
+      text-align: center;
+      width: 400px;
+      height: 80%;
+      
+      
+  }
+  .property-description
+{
+  background-color: #FAFAFC;
+  height:17em;
+  width:20em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
 }
-@media (max-width: 600px) {
-.center {
-  width: 90%;
-
-  padding-left: 3%;
- 
 }
+@media (max-width:620px){
+  .center {
+    
+      display: flex;
+      flex-direction: column; /* display cards in columns */
+      gap: 5px;
+     
+      align-items: center;
+      text-align: center;
+  }
+  .property-card {
+      width:80%;
+      
+  }
 }
 
 /* Image CSS for your SVG */
